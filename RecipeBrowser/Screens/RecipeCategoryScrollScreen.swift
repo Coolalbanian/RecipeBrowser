@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// The RecipeCategoryScrollScreen struct is a SwiftUI view responsible for displaying
+// the available recipe categories in the application.
 struct RecipeCategoryScrollScreen: View {
     
     @StateObject var model:RecipeCategoryScrollViewModel = RecipeCategoryScrollViewModel()
@@ -19,7 +21,7 @@ struct RecipeCategoryScrollScreen: View {
                         await model.populateCategories()
                     }
                 
-                    .navigationTitle("Recipes")
+                    .navigationTitle("Categories")
         }
     }
 }

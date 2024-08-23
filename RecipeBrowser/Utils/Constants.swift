@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+//Contains a structure that is used to store the URLs needed to interact with the MealDB API.
 struct Constants {
     
     struct Urls{

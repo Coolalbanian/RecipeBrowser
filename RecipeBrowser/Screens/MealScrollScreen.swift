@@ -6,6 +6,8 @@
 //
 import SwiftUI
 
+// The MealScrollScreen struct is a SwiftUI view responsible for displaying the meals
+// in the "Dessert" category.
 struct MealScrollScreen: View {
     
     @StateObject private var mealScrollVM = MealScrollViewModel()

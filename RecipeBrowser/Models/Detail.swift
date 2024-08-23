@@ -6,11 +6,11 @@
 //
 
 import Foundation
-
+// MealDetailResponse is used to decode API resonse containing the detailed meal information
 struct MealDetailResponse: Decodable {
     let meals: [MealDetail]?
 }
-
+// MealDetail represents the structure of each meals detailed information including the ingredients and measurments
 struct MealDetail: Decodable {
     let idMeal: String
     let strMeal: String

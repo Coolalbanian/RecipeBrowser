@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// The RecipeCategoryCellView struct is a SwiftUI view that represents a single recipe category cell,
+// and displays the category's thumbnail image and name, styled with various visual effects.
 struct RecipeCategoryCellView: View {
     
     let recipeCategory: RecipeCategoryViewModel
