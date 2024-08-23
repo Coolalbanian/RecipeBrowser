@@ -14,7 +14,7 @@ struct RecipeCategoryScrollScreen: View {
     var body: some View {
         
             NavigationView{
-                RecipeCategoryScrollView(mealCategory: model.recipeCategories)
+                RecipeCategoryScrollView(categories: model.recipeCategories)
                     .task {
                         await model.populateCategories()
                     }

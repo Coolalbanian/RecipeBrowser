@@ -14,8 +14,7 @@ class MealScrollViewModel: ObservableObject {
     
     func populateDessertMeals() async {
         do {
-            let url = URL(string: "https://www.themealdb.com/api/json/v1/1/filter.php?c=Dessert")!
-            let mealResponse = try await Webservice().get(url: url) { data in
+            let mealResponse = try await Webservice().get(url: Constants.Urls.mealByCategoryName("Dessert")) { data in
                 return try? JSONDecoder().decode(MealResponse.self, from: data)
             }
             

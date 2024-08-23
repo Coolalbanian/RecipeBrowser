@@ -26,6 +26,7 @@
 		B52D7F442C76B2F7000275C4 /* MealDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52D7F432C76B2F7000275C4 /* MealDetailViewModel.swift */; };
 		B52D7F462C76B3C6000275C4 /* MealDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52D7F452C76B3C6000275C4 /* MealDetailView.swift */; };
 		B52D7F482C76B7F0000275C4 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52D7F472C76B7F0000275C4 /* Detail.swift */; };
+		B52D7F4A2C781CBF000275C4 /* EmptyMealScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52D7F492C781CBF000275C4 /* EmptyMealScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		B52D7F432C76B2F7000275C4 /* MealDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailViewModel.swift; sourceTree = "<group>"; };
 		B52D7F452C76B3C6000275C4 /* MealDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailView.swift; sourceTree = "<group>"; };
 		B52D7F472C76B7F0000275C4 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		B52D7F492C781CBF000275C4 /* EmptyMealScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyMealScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 			children = (
 				B52D7F302C767108000275C4 /* RecipeCategoryScrollScreen.swift */,
 				B52D7F392C768F02000275C4 /* MealScrollScreen.swift */,
+				B52D7F492C781CBF000275C4 /* EmptyMealScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			files = (
 				B52D7F3C2C7692A3000275C4 /* MealScrollViewModel.swift in Sources */,
 				B52D7F422C769F01000275C4 /* MealCellView.swift in Sources */,
+				B52D7F4A2C781CBF000275C4 /* EmptyMealScreen.swift in Sources */,
 				B52D7F362C767350000275C4 /* RecipeCategoryCellView.swift in Sources */,
 				B52D7F482C76B7F0000275C4 /* Detail.swift in Sources */,
 				B52D7F312C767108000275C4 /* RecipeCategoryScrollScreen.swift in Sources */,
